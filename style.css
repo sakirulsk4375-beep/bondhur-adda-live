@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #12121a; color: #f2f2f2; }
+header { padding: 12px; background: #1d1d2b; }
+header h1 { margin: 0 0 8px; font-size: 20px; }
+nav button { margin: 2px; }
+main { padding: 12px; max-width: 700px; margin: auto; }
+input, textarea { width: 100%; padding: 10px; margin: 6px 0; border-radius: 6px; border: 1px solid #444; background: #1d1d2b; color: #fff; }
+button { padding: 10px 14px; border: 0; border-radius: 6px; background: #7c4dff; color: #fff; cursor: pointer; }
+button:disabled { opacity: 0.5; }
+.hidden { display: none; }
+.card { background: #1d1d2b; padding: 10px; border-radius: 8px; margin: 8px 0; }
+#videoGrid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+#videoGrid video { width: 100%; border-radius: 8px; background: #000; }
+.actions { margin: 10px 0; }
