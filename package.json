@@ -1,0 +1,5 @@
+{
+  "name": "bondhur-adda-live",
+  "version": "1.0.0",
+  "dependencies": { "livekit-server-sdk": "^2.6.0" }
+}
